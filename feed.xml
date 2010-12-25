@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://shupp.github.com/pirum/">
+    <title>Bill Shupp's PEAR channel Latest Releases</title>
+    <link href="http://shupp.github.com/pirum/" />
+    <author>
+        <name>http://shupp.github.com/pirum/</name>
+    </author>
+
+
+</feed>

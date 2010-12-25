@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>shupp.github.com/pirum</name>
+  <summary>Bill Shupp's PEAR channel</summary>
+  <alias>shupp</alias>
+  <url>http://shupp.github.com/pirum/</url>
+</server>

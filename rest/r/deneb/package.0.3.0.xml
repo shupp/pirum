@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Deneb</name>
+ <channel>shupp.github.com/pirum</channel>
+ <summary>Simple CRUD layer for DB based models</summary>
+ <description>Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors</description>
+ <lead>
+  <name>Bill Shupp</name>
+  <user>shupp</user>
+  <email>hostmaster@shupp.org</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-12-24</date>
+ <time>20:53:25</time>
+ <version>
+  <release>0.3.0</release>
+  <api>0.3.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+* Added countAll() method for collections
+* Added delayed fetch (no automatic trip to DB) for collections
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="923928f78b2ee219529528dcd080f8ec" name="Deneb/Collection/Common.php" role="php" />
+   <file baseinstalldir="/" md5sum="9c96a74b86696d6aa1d562ad0222893e" name="Deneb/DB/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="3fb97469203ae51676245a59f5e4619b" name="Deneb/DB/Selector.php" role="php" />
+   <file baseinstalldir="/" md5sum="ebca1657eb6471fc2cc47745105b072e" name="Deneb/Exception/NotFound.php" role="php" />
+   <file baseinstalldir="/" md5sum="654775ceaf221e82944182b55f67e265" name="Deneb/Object/Common.php" role="php" />
+   <file baseinstalldir="/" md5sum="c1dee8fb86b0b0f1fb95e114d93968bd" name="Deneb/Object/Interface.php" role="php" />
+   <file baseinstalldir="/" md5sum="ed52e48b49815414f156a119cafa6cce" name="Deneb/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="f1158ad5980221ad7448ad96e5446916" name="tests/Deneb/DB/SelectorTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="83fffab05758dcce56fa2163c6276a5d" name="tests/Deneb/AllTests.php" role="test" />
+   <file baseinstalldir="/" md5sum="1796e3702dd9e894e4b4349787073e13" name="tests/Deneb/Dummy.php" role="test" />
+   <file baseinstalldir="/" md5sum="23a77143e16f3c2c536b97b6dfc0e99e" name="tests/Deneb/DummyCollection.php" role="test" />
+   <file baseinstalldir="/" md5sum="6eccb3c187eeec03a7e4a78850c80acf" name="tests/Deneb/DummyCollectionTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="bbd8a33cec79930467fbbdcdab1839af" name="tests/Deneb/DummyTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="13dc40611658e22de3dd85cc3e98ea3b" name="tests/Deneb/TestCase.php" role="test" />
+   <file baseinstalldir="/" md5sum="76ef803de94cde706283e5d127379cae" name="tests/FoobarException.php" role="test" />
+   <file baseinstalldir="/" md5sum="330e84aff7b0c5788f850923c4d70f03" name="Deneb.php" role="php" />
+   <file baseinstalldir="/" md5sum="054dce3414eeb87ac9c3d0e4d94ac2eb" name="README.md" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+   <package>
+    <name>Zend</name>
+    <channel>zend.googlecode.com/svn</channel>
+    <min>1.10.7</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-09-26</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Initial release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-11-15</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Added support for custom exceptions
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.3.0</release>
+    <api>0.3.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2010-12-24</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Added countAll() method for collections
+* Added delayed fetch (no automatic trip to DB) for collections
+   </notes>
+  </release>
+ </changelog>
+</package>

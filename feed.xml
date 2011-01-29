@@ -7,6 +7,17 @@
     </author>
 
     <entry>
+        <title>Deneb 0.4.0 (alpha)</title>
+        <link href="http://shupp.github.com/pirum//get/Deneb-0.4.0.tgz" />
+        <id>Deneb-0.4.0</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-01-28T17:07:49-08:00</updated>
+        <content>
+            Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors
+        </content>
+    </entry>    <entry>
         <title>Deneb 0.3.0 (alpha)</title>
         <link href="http://shupp.github.com/pirum//get/Deneb-0.3.0.tgz" />
         <id>Deneb-0.3.0</id>

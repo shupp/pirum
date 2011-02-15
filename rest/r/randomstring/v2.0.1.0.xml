@@ -9,12 +9,12 @@
     <l>New BSD License</l>
     <m>shupp</m>
     <s>A RandomString generator</s>
-    <d>Easy creation of random strings, limiting by lower case, upper case, numeric, and puncuation characters</d>
+    <d>Easy creation of random strings, limiting by lower case, upper case, numeric, and punctuation characters</d>
     <da>2011-02-15 12:14:49</da>
     <n>
 * Initial release
  </n>
-    <f>2428</f>
+    <f>2429</f>
     <g>http://shupp.github.com/pirum//get/RandomString-0.1.0</g>
     <x xlink:href="package.0.1.0.xml"/>
 </r>

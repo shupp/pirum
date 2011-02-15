@@ -28,5 +28,16 @@
         <content>
             Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors
         </content>
+    </entry>    <entry>
+        <title>RandomString 0.1.0 (alpha)</title>
+        <link href="http://shupp.github.com/pirum//get/RandomString-0.1.0.tgz" />
+        <id>RandomString-0.1.0</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2011-02-15T12:14:49-08:00</updated>
+        <content>
+            Easy creation of random strings, limiting by lower case, upper case, numeric, and puncuation characters
+        </content>
     </entry>
 </feed>

@@ -34,6 +34,30 @@
 
     </pi>    <pi>
         <p>
+            <n>Predict</n>
+            <c>shupp.github.com/pirum</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>GPL v2.1</l>
+            <s>A partial port of the Gpredict program for satellite tracking</s>
+            <d>Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.</d>
+            <r xlink:href="/rest/r/predict" />
+        </p>
+
+        <a>
+            <r>
+                <v>0.1.0</v>
+                <s>alpha</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.1.0</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:9:"extension";a:1:{s:4:"name";s:4:"date";}}}</d>
+        </deps>
+
+    </pi>    <pi>
+        <p>
             <n>RandomString</n>
             <c>shupp.github.com/pirum</c>
             <ca xlink:href="/rest/c/Default">Default</ca>

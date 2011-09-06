@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release2 http://pear.php.net/dtd/rest.release2.xsd">
+    <p xlink:href="/rest/p/predict">Predict</p>
+    <c>shupp.github.com/pirum</c>
+    <v>0.1.1</v>
+    <a>0.1.1</a>
+    <mp>5.2.0</mp>
+    <st>alpha</st>
+    <l>GPL v2.1</l>
+    <m>shupp</m>
+    <s>A partial port of the Gpredict program for satellite tracking</s>
+    <d>Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.</d>
+    <da>2011-09-06 04:46:41</da>
+    <n>
+* Fixed minimum elevation bug in visible pass detection
+* Updated precision of Pogson's Ratio, refactored calculate magnitude to be more readble, as well as added comments
+ </n>
+    <f>461861</f>
+    <g>http://shupp.github.com/pirum//get/Predict-0.1.1</g>
+    <x xlink:href="package.0.1.1.xml"/>
+</r>

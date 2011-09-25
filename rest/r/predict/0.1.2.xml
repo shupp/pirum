@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/predict">Predict</p>
+    <c>shupp.github.com/pirum</c>
+    <v>0.1.2</v>
+    <st>alpha</st>
+    <l>GPL v2.1</l>
+    <m>shupp</m>
+    <s>A partial port of the Gpredict program for satellite tracking</s>
+    <d>Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.</d>
+    <da>2011-09-25 15:02:36</da>
+    <n>
+* Added Predict_Time::getEpochTimeStamp()
+ </n>
+    <f>462028</f>
+    <g>http://shupp.github.com/pirum//get/Predict-0.1.2</g>
+    <x xlink:href="package.0.1.2.xml"/>
+</r>

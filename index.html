@@ -3,8 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Bill Shupp's PEAR channel</title>
-    <link rel="stylesheet" type="text/css" href="http://shupp.github.com/pirum//pirum.css" />
-    <link rel="alternate" type="application/rss+xml" href="http://shupp.github.com/pirum//feed.xml" title="Bill Shupp's PEAR channel Latest Releases" />
+    <link rel="stylesheet" type="text/css" href="pirum.css" />
+    <link rel="alternate" type="application/rss+xml" href="http://shupp.github.com/pirum/feed.xml" title="Bill Shupp's PEAR channel Latest Releases" />
 </head>
 <body>
     <div id="doc" class="yui-t7">
@@ -13,8 +13,6 @@
         </div>
         <div id="bd">
             <div class="yui-g">
-                <h2>Using this Channel</h2>
-                <p>This channel is to be used with the PEAR installer.</p>
                 <em>Registering</em> the channel:
                 <pre><code>pear channel-discover shupp.github.com/pirum</code></pre>
                 <em>Listing</em> available packages:
@@ -24,48 +22,49 @@
                 <em>Installing</em> a specific version/stability:
                 <pre><code>pear install shupp/package_name-1.0.0
 pear install shupp/package_name-beta</code></pre>
-                <em>Receiving</em> updates via a <a href="http://shupp.github.com/pirum//feed.xml">feed</a>:
-                <pre><code>http://shupp.github.com/pirum//feed.xml</code></pre>
-
-                <h2>Packages</h2>
+                <em>Receiving</em> updates via a <a href="http://shupp.github.com/pirum/feed.xml">feed</a>:
+                <pre><code>http://shupp.github.com/pirum/feed.xml</code></pre>
 
                                     <h3>Deneb<small> - Simple CRUD layer for DB based models</small></h3>
                     <p>Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors</p>
-                    <ul>
-                        <li><strong>Package name</strong>: Deneb</li>
-                        <li><strong>License</strong>: New BSD License</li>
-                                                <li><strong>Maintainers</strong>: Bill Shupp (as lead)</li>
-                                                <li><strong>Releases</strong>: <a href="http://shupp.github.com/pirum//get/Deneb-0.4.0.tgz">0.4.0</a> (alpha), <a href="http://shupp.github.com/pirum//get/Deneb-0.3.0.tgz">0.3.0</a> (alpha)</li>
-                        <li><strong>Install command</strong>: pear install shupp/Deneb</li>
-                    </ul>
-
-                    <hr />
+                    <table>
+                        <tr><th>Install command</th><td><strong>pear install shupp/Deneb</strong></td></tr>
+                                                <tr><th>License</th><td>New BSD License</td></tr>
+                                                    <tr><th>Dependencies</th><td>
+                                                                    zend.googlecode.com/svn/Zend                                                            </td></tr>
+                                                                        <tr><th>Maintainers</th><td>Bill Shupp <small>(as lead)</small></td></tr>
+                                                <tr><th>Releases</th><td><a href="http://shupp.github.com/pirum/get/Deneb-0.4.0.tgz">0.4.0</a> <small>(alpha)</small>, <a href="http://shupp.github.com/pirum/get/Deneb-0.3.0.tgz">0.3.0</a> <small>(alpha)</small></td></tr>
+                    </table>
+                                    <h3>EZRP<small> - PHP interface for handling OAuth, OpenID, and Facebook connections consistently</small></h3>
+                    <p>See ezrp.me for details</p>
+                    <table>
+                        <tr><th>Install command</th><td><strong>pear install shupp/EZRP</strong></td></tr>
+                                                <tr><th>License</th><td>New BSD License</td></tr>
+                                                    <tr><th>Dependencies</th><td>
+                                                                    pear.php.net/HTTP_OAuth,                                                                     pear.php.net/OpenID,                                                                     pear.php.net/Net_URL2,                                                                     pear.php.net/Cache_Lite                                                            </td></tr>
+                                                                        <tr><th>Maintainers</th><td>Bill Shupp <small>(as lead)</small></td></tr>
+                                                <tr><th>Releases</th><td><a href="http://shupp.github.com/pirum/get/EZRP-0.2.0.tgz">0.2.0</a> <small>(alpha)</small></td></tr>
+                    </table>
                                     <h3>Predict<small> - A partial port of the Gpredict program for satellite tracking</small></h3>
                     <p>Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.</p>
-                    <ul>
-                        <li><strong>Package name</strong>: Predict</li>
-                        <li><strong>License</strong>: GPL v2.1</li>
-                                                <li><strong>Maintainers</strong>: Bill Shupp (as lead)</li>
-                                                <li><strong>Releases</strong>: <a href="http://shupp.github.com/pirum//get/Predict-0.1.2.tgz">0.1.2</a> (alpha), <a href="http://shupp.github.com/pirum//get/Predict-0.1.1.tgz">0.1.1</a> (alpha), <a href="http://shupp.github.com/pirum//get/Predict-0.1.0.tgz">0.1.0</a> (alpha)</li>
-                        <li><strong>Install command</strong>: pear install shupp/Predict</li>
-                    </ul>
-
-                    <hr />
+                    <table>
+                        <tr><th>Install command</th><td><strong>pear install shupp/Predict</strong></td></tr>
+                                                <tr><th>License</th><td>GPL v2.1</td></tr>
+                                                                        <tr><th>Maintainers</th><td>Bill Shupp <small>(as lead)</small></td></tr>
+                                                <tr><th>Releases</th><td><a href="http://shupp.github.com/pirum/get/Predict-0.1.2.tgz">0.1.2</a> <small>(alpha)</small>, <a href="http://shupp.github.com/pirum/get/Predict-0.1.1.tgz">0.1.1</a> <small>(alpha)</small>, <a href="http://shupp.github.com/pirum/get/Predict-0.1.0.tgz">0.1.0</a> <small>(alpha)</small></td></tr>
+                    </table>
                                     <h3>RandomString<small> - A RandomString generator</small></h3>
                     <p>Easy creation of random strings, limiting by lower case, upper case, numeric, and puncuation characters</p>
-                    <ul>
-                        <li><strong>Package name</strong>: RandomString</li>
-                        <li><strong>License</strong>: New BSD License</li>
-                                                <li><strong>Maintainers</strong>: Bill Shupp (as lead)</li>
-                                                <li><strong>Releases</strong>: <a href="http://shupp.github.com/pirum//get/RandomString-0.1.0.tgz">0.1.0</a> (alpha)</li>
-                        <li><strong>Install command</strong>: pear install shupp/RandomString</li>
-                    </ul>
-
-                    <hr />
+                    <table>
+                        <tr><th>Install command</th><td><strong>pear install shupp/RandomString</strong></td></tr>
+                                                <tr><th>License</th><td>New BSD License</td></tr>
+                                                                        <tr><th>Maintainers</th><td>Bill Shupp <small>(as lead)</small></td></tr>
+                                                <tr><th>Releases</th><td><a href="http://shupp.github.com/pirum/get/RandomString-0.1.0.tgz">0.1.0</a> <small>(alpha)</small></td></tr>
+                    </table>
                             </div>
         </div>
         <div id="ft">
-            <p><small>The <em>shupp.github.com/pirum</em> PEAR Channel Server is proudly powered by <a href="http://www.pirum-project.org/">Pirum</a> 1.0.1</small></p>
+            <p><small>The <em>shupp.github.com/pirum</em> PEAR Channel Server is proudly powered by <a href="http://pirum.sensiolabs.org/">Pirum</a> 1.0.4</small></p>
         </div>
     </div>
 </body>

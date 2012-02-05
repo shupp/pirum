@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>EZRP</name>
+ <channel>shupp.github.com/pirum</channel>
+ <summary>PHP interface for handling OAuth, OpenID, and Facebook connections consistently</summary>
+ <description>See ezrp.me for details</description>
+ <lead>
+  <name>Bill Shupp</name>
+  <user>shupp</user>
+  <email>shupp@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-02-05</date>
+ <time>19:58:24</time>
+ <version>
+  <release>0.2.0</release>
+  <api>0.2.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+* Added EZRP::getProfileData(), only the twitter driver is supported though
+* Updated twitter oauth url
+* Prepped 0.2.0 release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="6565e44605e2f34254361772f0ab65b6" name="doc/notes" role="doc" />
+   <file baseinstalldir="/" md5sum="b1fa40acac053875274a6868b9e37ecd" name="EZRP/Store/CacheLite.php" role="php" />
+   <file baseinstalldir="/" md5sum="14da3724872fc77dfeeb81807fe59679" name="EZRP/Store/Interface.php" role="php" />
+   <file baseinstalldir="/" md5sum="8072211715a5d8d4284286e3ebcb0917" name="EZRP/Common.php" role="php" />
+   <file baseinstalldir="/" md5sum="9a8ac91b7bff5242f45b2ebf64b8c637" name="EZRP/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="976d9ae53852f464afd17b0d43c02419" name="EZRP/Google.php" role="php" />
+   <file baseinstalldir="/" md5sum="f8c399c4bcad4d6c62aa1cb82e856047" name="EZRP/Interface.php" role="php" />
+   <file baseinstalldir="/" md5sum="e0e28c9237b804990df28c2c13fc3af3" name="EZRP/OpenID.php" role="php" />
+   <file baseinstalldir="/" md5sum="461e774628b1def93937a6a26666c29a" name="EZRP/Twitter.php" role="php" />
+   <file baseinstalldir="/" md5sum="a2c253ed6205a0dc3433e8e992a9117a" name="public_html/ezrp/config.php" role="doc" />
+   <file baseinstalldir="/" md5sum="b151c1d9009d48a5c7b749f158e369e4" name="public_html/ezrp/ezrp.js" role="doc" />
+   <file baseinstalldir="/" md5sum="98a2e06413043297b24283f32cad4fbb" name="public_html/ezrp/prepare.php" role="doc" />
+   <file baseinstalldir="/" md5sum="c21dac9f4f6c2ee32ef2c0da0709c627" name="public_html/ezrp/spinner.gif" role="doc" />
+   <file baseinstalldir="/" md5sum="16895aeeb5f3aee20bcd66fc31145a38" name="public_html/ezrp/spinner.php" role="doc" />
+   <file baseinstalldir="/" md5sum="fb2550d777df46e3094fc9a00f9a667d" name="public_html/ezrp/verify.php" role="doc" />
+   <file baseinstalldir="/" md5sum="c943ccb790245729f59ac3d27a0bf615" name="public_html/index.php" role="doc" />
+   <file baseinstalldir="/" md5sum="701e0eee6af1d64671b6a52669f7efcd" name="EZRP.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.2</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+   <package>
+    <name>HTTP_OAuth</name>
+    <channel>pear.php.net</channel>
+    <min>0.2.3</min>
+   </package>
+   <package>
+    <name>OpenID</name>
+    <channel>pear.php.net</channel>
+    <min>0.3.2</min>
+   </package>
+   <package>
+    <name>Net_URL2</name>
+    <channel>pear.php.net</channel>
+    <min>0.2.0</min>
+   </package>
+   <package>
+    <name>Cache_Lite</name>
+    <channel>pear.php.net</channel>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-07-16</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Fixed ezrpPath to be more flexible
+* Updated dependencies to get other bug fixes
+* Tagged 0.1.0 release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-02-05</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Added EZRP::getProfileData(), only the twitter driver is supported though
+* Updated twitter oauth url
+* Prepped 0.2.0 release
+   </notes>
+  </release>
+ </changelog>
+</package>

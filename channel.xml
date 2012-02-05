@@ -6,10 +6,10 @@
     <servers>
         <primary>
             <rest>
-                <baseurl type="REST1.0">http://shupp.github.com/pirum//rest/</baseurl>
-                <baseurl type="REST1.1">http://shupp.github.com/pirum//rest/</baseurl>
-                <baseurl type="REST1.2">http://shupp.github.com/pirum//rest/</baseurl>
-                <baseurl type="REST1.3">http://shupp.github.com/pirum//rest/</baseurl>
+                <baseurl type="REST1.0">http://shupp.github.com/pirum/rest/</baseurl>
+                <baseurl type="REST1.1">http://shupp.github.com/pirum/rest/</baseurl>
+                <baseurl type="REST1.2">http://shupp.github.com/pirum/rest/</baseurl>
+                <baseurl type="REST1.3">http://shupp.github.com/pirum/rest/</baseurl>
             </rest>
         </primary>
     </servers>

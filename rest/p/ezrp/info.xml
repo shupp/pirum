@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>EZRP</n>
+<c>shupp.github.com/pirum</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>New BSD License</l>
+<s>PHP interface for handling OAuth, OpenID, and Facebook connections consistently</s>
+<d>See ezrp.me for details</d>
+<r xlink:href="/rest/r/ezrp" />
+</p>

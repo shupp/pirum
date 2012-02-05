@@ -1,76 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://shupp.github.com/pirum/">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://shupp.github.com/pirum</id>
+    <updated>2012-02-05T11:59:28-08:00</updated>
     <title>Bill Shupp's PEAR channel Latest Releases</title>
-    <link href="http://shupp.github.com/pirum/" />
+    <link href="http://shupp.github.com/pirum/feed.xml" rel="self" />
     <author>
-        <name>http://shupp.github.com/pirum/</name>
+        <name>http://shupp.github.com/pirum</name>
     </author>
 
     <entry>
         <title>Deneb 0.4.0 (alpha)</title>
-        <link href="http://shupp.github.com/pirum//get/Deneb-0.4.0.tgz" />
-        <id>Deneb-0.4.0</id>
+        <link href="http://shupp.github.com/pirum/get/Deneb-0.4.0.tgz" />
+        <id>http://shupp.github.com/pirum/get/Deneb-0.4.0.tgz</id>
         <author>
             <name>shupp</name>
         </author>
         <updated>2011-01-28T17:07:49-08:00</updated>
         <content>
-            Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors
+            
+* Added support for creating a record with the primary key value supplied
+* After creation, all values are updated in the current object
+* Updated tests to work with PHPUnit 3.5
+ 
         </content>
     </entry>    <entry>
         <title>Deneb 0.3.0 (alpha)</title>
-        <link href="http://shupp.github.com/pirum//get/Deneb-0.3.0.tgz" />
-        <id>Deneb-0.3.0</id>
+        <link href="http://shupp.github.com/pirum/get/Deneb-0.3.0.tgz" />
+        <id>http://shupp.github.com/pirum/get/Deneb-0.3.0.tgz</id>
         <author>
             <name>shupp</name>
         </author>
         <updated>2010-12-24T20:53:25-08:00</updated>
         <content>
-            Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors
+            
+* Added countAll() method for collections
+* Added delayed fetch (no automatic trip to DB) for collections
+ 
+        </content>
+    </entry>    <entry>
+        <title>EZRP 0.2.0 (alpha)</title>
+        <link href="http://shupp.github.com/pirum/get/EZRP-0.2.0.tgz" />
+        <id>http://shupp.github.com/pirum/get/EZRP-0.2.0.tgz</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2012-02-05T19:58:24-08:00</updated>
+        <content>
+            
+* Added EZRP::getProfileData(), only the twitter driver is supported though
+* Updated twitter oauth url
+* Prepped 0.2.0 release
+ 
         </content>
     </entry>    <entry>
         <title>Predict 0.1.2 (alpha)</title>
-        <link href="http://shupp.github.com/pirum//get/Predict-0.1.2.tgz" />
-        <id>Predict-0.1.2</id>
+        <link href="http://shupp.github.com/pirum/get/Predict-0.1.2.tgz" />
+        <id>http://shupp.github.com/pirum/get/Predict-0.1.2.tgz</id>
         <author>
             <name>shupp</name>
         </author>
         <updated>2011-09-25T15:02:36-07:00</updated>
         <content>
-            Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.
+            
+* Added Predict_Time::getEpochTimeStamp()
+ 
         </content>
     </entry>    <entry>
         <title>Predict 0.1.1 (alpha)</title>
-        <link href="http://shupp.github.com/pirum//get/Predict-0.1.1.tgz" />
-        <id>Predict-0.1.1</id>
+        <link href="http://shupp.github.com/pirum/get/Predict-0.1.1.tgz" />
+        <id>http://shupp.github.com/pirum/get/Predict-0.1.1.tgz</id>
         <author>
             <name>shupp</name>
         </author>
         <updated>2011-09-06T04:46:41-07:00</updated>
         <content>
-            Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.
+            
+* Fixed minimum elevation bug in visible pass detection
+* Updated precision of Pogson's Ratio, refactored calculate magnitude to be more readble, as well as added comments
+ 
         </content>
     </entry>    <entry>
         <title>Predict 0.1.0 (alpha)</title>
-        <link href="http://shupp.github.com/pirum//get/Predict-0.1.0.tgz" />
-        <id>Predict-0.1.0</id>
+        <link href="http://shupp.github.com/pirum/get/Predict-0.1.0.tgz" />
+        <id>http://shupp.github.com/pirum/get/Predict-0.1.0.tgz</id>
         <author>
             <name>shupp</name>
         </author>
         <updated>2011-08-22T16:25:45-07:00</updated>
         <content>
-            Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.
+            
+* Initial release
+ 
         </content>
     </entry>    <entry>
         <title>RandomString 0.1.0 (alpha)</title>
-        <link href="http://shupp.github.com/pirum//get/RandomString-0.1.0.tgz" />
-        <id>RandomString-0.1.0</id>
+        <link href="http://shupp.github.com/pirum/get/RandomString-0.1.0.tgz" />
+        <id>http://shupp.github.com/pirum/get/RandomString-0.1.0.tgz</id>
         <author>
             <name>shupp</name>
         </author>
         <updated>2011-02-15T12:14:49-08:00</updated>
         <content>
-            Easy creation of random strings, limiting by lower case, upper case, numeric, and puncuation characters
+            
+* Initial release
+ 
         </content>
     </entry>
 </feed>

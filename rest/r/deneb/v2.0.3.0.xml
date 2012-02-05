@@ -16,6 +16,6 @@
 * Added delayed fetch (no automatic trip to DB) for collections
  </n>
     <f>10798</f>
-    <g>http://shupp.github.com/pirum//get/Deneb-0.3.0</g>
+    <g>http://shupp.github.com/pirum/get/Deneb-0.3.0</g>
     <x xlink:href="package.0.3.0.xml"/>
 </r>

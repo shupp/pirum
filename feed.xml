@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://shupp.github.com/pirum</id>
-    <updated>2012-02-05T11:59:28-08:00</updated>
+    <updated>2012-04-01T13:17:51-07:00</updated>
     <title>Bill Shupp's PEAR channel Latest Releases</title>
     <link href="http://shupp.github.com/pirum/feed.xml" rel="self" />
     <author>
@@ -35,6 +35,21 @@
             
 * Added countAll() method for collections
 * Added delayed fetch (no automatic trip to DB) for collections
+ 
+        </content>
+    </entry>    <entry>
+        <title>EZRP 0.2.1 (alpha)</title>
+        <link href="http://shupp.github.com/pirum/get/EZRP-0.2.1.tgz" />
+        <id>http://shupp.github.com/pirum/get/EZRP-0.2.1.tgz</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2012-04-01T20:17:18-07:00</updated>
+        <content>
+            
+* Added EZRP::getProfileData(), only the twitter driver is supported though
+* Updated twitter oauth url
+* Prepped 0.2.0 release
  
         </content>
     </entry>    <entry>

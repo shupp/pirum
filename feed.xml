@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://shupp.github.com/pirum</id>
-    <updated>2012-04-01T13:17:51-07:00</updated>
+    <updated>2012-04-29T20:20:57-07:00</updated>
     <title>Bill Shupp's PEAR channel Latest Releases</title>
     <link href="http://shupp.github.com/pirum/feed.xml" rel="self" />
     <author>
@@ -115,6 +115,19 @@
             <name>shupp</name>
         </author>
         <updated>2011-02-15T12:14:49-08:00</updated>
+        <content>
+            
+* Initial release
+ 
+        </content>
+    </entry>    <entry>
+        <title>Services_IPPower 0.0.1 (alpha)</title>
+        <link href="http://shupp.github.com/pirum/get/Services_IPPower-0.0.1.tgz" />
+        <id>http://shupp.github.com/pirum/get/Services_IPPower-0.0.1.tgz</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2012-04-30T03:19:17-07:00</updated>
         <content>
             
 * Initial release

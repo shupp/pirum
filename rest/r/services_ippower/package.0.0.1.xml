@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Services_IPPower</name>
+ <channel>shupp.github.com/pirum</channel>
+ <summary>PHP Client for IP Power 9258 Remote Power Controller</summary>
+ <description>Only supports SetPower command right now</description>
+ <lead>
+  <name>Bill Shupp</name>
+  <user>shupp</user>
+  <email>shupp@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-04-30</date>
+ <time>03:19:17</time>
+ <version>
+  <release>0.0.1</release>
+  <api>0.0.1</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+ <notes>
+* Initial release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="00872d051adaef75cf8dcd8c0eef2317" name="Services/IPPower/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="f96696651ee939b06257884680b7360e" name="Services/IPPower.php" role="php" />
+   <file baseinstalldir="/" md5sum="19b76e96a754fdde316f16b412004a46" name="tests/Services/IPPowerTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="91298f16631fb0400801954eddaa76c0" name="example.php" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+   <package>
+    <name>HTTP_Request2</name>
+    <channel>pear.php.net</channel>
+    <min>2.0.0</min>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>Log</name>
+    <channel>pear.php.net</channel>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-04-29</date>
+   <license uri="http://www.opensource.org/licenses/bsd-license.php">New BSD License</license>
+   <notes>
+* Initial release
+   </notes>
+  </release>
+ </changelog>
+</package>

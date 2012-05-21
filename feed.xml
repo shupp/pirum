@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://shupp.github.com/pirum</id>
-    <updated>2012-04-29T20:20:57-07:00</updated>
+    <updated>2012-05-21T10:23:06-07:00</updated>
     <title>Bill Shupp's PEAR channel Latest Releases</title>
     <link href="http://shupp.github.com/pirum/feed.xml" rel="self" />
     <author>
@@ -65,6 +65,20 @@
 * Added EZRP::getProfileData(), only the twitter driver is supported though
 * Updated twitter oauth url
 * Prepped 0.2.0 release
+ 
+        </content>
+    </entry>    <entry>
+        <title>Predict 0.2.0 (alpha)</title>
+        <link href="http://shupp.github.com/pirum/get/Predict-0.2.0.tgz" />
+        <id>http://shupp.github.com/pirum/get/Predict-0.2.0.tgz</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2012-05-21T17:22:53-07:00</updated>
+        <content>
+            
+* Fixed bug in Predict_Time::unix2daynum()
+* Updated example iss.tle file
  
         </content>
     </entry>    <entry>

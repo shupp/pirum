@@ -3,6 +3,11 @@
     <p>Predict</p>
     <c>shupp.github.com/pirum</c>
     <r>
+        <v>0.2.0</v>
+        <s>alpha</s>
+        <m>5.2.0</m>
+    </r>
+    <r>
         <v>0.1.2</v>
         <s>alpha</s>
         <m>5.2.0</m>

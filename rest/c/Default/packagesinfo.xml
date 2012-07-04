@@ -77,6 +77,10 @@
 
         <a>
             <r>
+                <v>0.2.1</v>
+                <s>alpha</s>
+            </r>
+            <r>
                 <v>0.2.0</v>
                 <s>alpha</s>
             </r>
@@ -95,6 +99,10 @@
 
         </a>
 
+        <deps>
+            <v>0.2.1</v>
+            <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:9:"extension";a:1:{s:4:"name";s:4:"date";}}}</d>
+        </deps>
         <deps>
             <v>0.2.0</v>
             <d>a:1:{s:8:"required";a:3:{s:3:"php";a:1:{s:3:"min";s:5:"5.2.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}s:9:"extension";a:1:{s:4:"name";s:4:"date";}}}</d>

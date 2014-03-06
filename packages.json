@@ -1,1 +1,398 @@
-{"pear-shupp\/Deneb":{"versions":{"0.4.0":{"name":"pear-shupp\/Deneb","description":"Simple CRUD layer for DB based models","dist":{"type":"pear","url":"http:\/\/shupp.github.com\/pirum\/get\/Deneb-0.4.0.tgz"},"version":"0.4.0","time":"2011-01-28T17:07:49-08:00","require":{"php":">=5.0.0","pear-zend\/Zend":">=1.10.7"},"authors":[{"name":"Bill Shupp","email":"hostmaster@shupp.org","homepage":""}],"autoload":{"classmap":{"1":"Deneb","7":"Deneb.php"}}},"0.3.0":{"name":"pear-shupp\/Deneb","description":"Simple CRUD layer for DB based models","dist":{"type":"pear","url":"http:\/\/shupp.github.com\/pirum\/get\/Deneb-0.3.0.tgz"},"version":"0.3.0","time":"2010-12-24T20:53:25-08:00","require":{"php":">=5.0.0","pear-zend\/Zend":">=1.10.7"},"authors":[{"name":"Bill Shupp","email":"hostmaster@shupp.org","homepage":""}],"autoload":{"classmap":{"1":"Deneb","7":"Deneb.php"}}}},"name":"pear-shupp\/Deneb","description":"Simple CRUD layer for DB based models","maintainers":[{"name":"Bill Shupp","email":"hostmaster@shupp.org","homepage":""}]},"pear-shupp\/EZRP":{"versions":{"0.2.1":{"name":"pear-shupp\/EZRP","description":"PHP interface for handling OAuth, OpenID, and Facebook connections consistently","dist":{"type":"pear","url":"http:\/\/shupp.github.com\/pirum\/get\/EZRP-0.2.1.tgz"},"version":"0.2.1","time":"2012-04-01T20:17:18-07:00","require":{"php":">=5.1.2","pear-pear\/HTTP_OAuth":">=0.2.3","pear-pear\/OpenID":">=0.3.3","pear-pear\/Net_URL2":">=0.2.0","pear-pear\/Cache_Lite":"*"},"authors":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}],"autoload":{"classmap":{"0":"EZRP","8":"EZRP.php"}}},"0.2.0":{"name":"pear-shupp\/EZRP","description":"PHP interface for handling OAuth, OpenID, and Facebook connections consistently","dist":{"type":"pear","url":"http:\/\/shupp.github.com\/pirum\/get\/EZRP-0.2.0.tgz"},"version":"0.2.0","time":"2012-02-05T19:58:24-08:00","require":{"php":">=5.1.2","pear-pear\/HTTP_OAuth":">=0.2.3","pear-pear\/OpenID":">=0.3.2","pear-pear\/Net_URL2":">=0.2.0","pear-pear\/Cache_Lite":"*"},"authors":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}],"autoload":{"classmap":{"0":"EZRP","8":"EZRP.php"}}}},"name":"pear-shupp\/EZRP","description":"PHP interface for handling OAuth, OpenID, and Facebook connections consistently","maintainers":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}]},"pear-shupp\/Predict":{"versions":{"0.2.0":{"name":"pear-shupp\/Predict","description":"A partial port of the Gpredict program for satellite tracking","dist":{"type":"pear","url":"http:\/\/shupp.github.com\/pirum\/get\/Predict-0.2.0.tgz"},"version":"0.2.0","time":"2012-05-21T17:22:53-07:00","require":{"php":">=5.2.0","ext-date":"*"},"authors":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}],"autoload":{"classmap":{"0":"Predict","17":"Predict.php"}}},"0.1.2":{"name":"pear-shupp\/Predict","description":"A partial port of the Gpredict program for satellite tracking","dist":{"type":"pear","url":"http:\/\/shupp.github.com\/pirum\/get\/Predict-0.1.2.tgz"},"version":"0.1.2","time":"2011-09-25T15:02:36-07:00","require":{"php":">=5.2.0","ext-date":"*"},"authors":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}],"autoload":{"classmap":{"0":"Predict","17":"Predict.php"}}},"0.1.1":{"name":"pear-shupp\/Predict","description":"A partial port of the Gpredict program for satellite tracking","dist":{"type":"pear","url":"http:\/\/shupp.github.com\/pirum\/get\/Predict-0.1.1.tgz"},"version":"0.1.1","time":"2011-09-06T04:46:41-07:00","require":{"php":">=5.2.0","ext-date":"*"},"authors":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}],"autoload":{"classmap":{"0":"Predict","17":"Predict.php"}}},"0.1.0":{"name":"pear-shupp\/Predict","description":"A partial port of the Gpredict program for satellite tracking","dist":{"type":"pear","url":"http:\/\/shupp.github.com\/pirum\/get\/Predict-0.1.0.tgz"},"version":"0.1.0","time":"2011-08-22T16:25:45-07:00","require":{"php":">=5.2.0","ext-date":"*"},"authors":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}],"autoload":{"classmap":{"0":"Predict","17":"Predict.php"}}}},"name":"pear-shupp\/Predict","description":"A partial port of the Gpredict program for satellite tracking","maintainers":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}]},"pear-shupp\/RandomString":{"versions":{"0.1.0":{"name":"pear-shupp\/RandomString","description":"A RandomString generator","dist":{"type":"pear","url":"http:\/\/shupp.github.com\/pirum\/get\/RandomString-0.1.0.tgz"},"version":"0.1.0","time":"2011-02-15T12:14:49-08:00","require":{"php":">=5.1.2"},"authors":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}],"autoload":{"classmap":["RandomString.php"]}}},"name":"pear-shupp\/RandomString","description":"A RandomString generator","maintainers":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}]},"pear-shupp\/Services_IPPower":{"versions":{"0.0.1":{"name":"pear-shupp\/Services_IPPower","description":"PHP Client for IP Power 9258 Remote Power Controller","dist":{"type":"pear","url":"http:\/\/shupp.github.com\/pirum\/get\/Services_IPPower-0.0.1.tgz"},"version":"0.0.1","time":"2012-04-30T03:19:17-07:00","require":{"php":">=5.3.0","pear-pear\/HTTP_Request2":">=2.0.0"},"suggest":{"pear-pear\/Log":"*"},"authors":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}],"autoload":{"classmap":["Services\/IPPower\/Exception.php","Services\/IPPower.php"]}}},"name":"pear-shupp\/Services_IPPower","description":"PHP Client for IP Power 9258 Remote Power Controller","maintainers":[{"name":"Bill Shupp","email":"shupp@php.net","homepage":""}]}}
+{
+    "pear-shupp\/Deneb": {
+        "versions": {
+            "0.4.0": {
+                "name": "pear-shupp\/Deneb",
+                "description": "Simple CRUD layer for DB based models",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/Deneb-0.4.0.tgz"
+                },
+                "version": "0.4.0",
+                "time": "2011-01-28T17:07:49-08:00",
+                "require": {
+                    "php": ">=5.0.0",
+                    "pear-zend\/Zend": ">=1.10.7"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "hostmaster@shupp.org",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Deneb",
+                        "7": "Deneb.php"
+                    }
+                }
+            },
+            "0.3.0": {
+                "name": "pear-shupp\/Deneb",
+                "description": "Simple CRUD layer for DB based models",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/Deneb-0.3.0.tgz"
+                },
+                "version": "0.3.0",
+                "time": "2010-12-24T20:53:25-08:00",
+                "require": {
+                    "php": ">=5.0.0",
+                    "pear-zend\/Zend": ">=1.10.7"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "hostmaster@shupp.org",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "1": "Deneb",
+                        "7": "Deneb.php"
+                    }
+                }
+            }
+        },
+        "name": "pear-shupp\/Deneb",
+        "description": "Simple CRUD layer for DB based models",
+        "maintainers": [
+            {
+                "name": "Bill Shupp",
+                "email": "hostmaster@shupp.org",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-shupp\/EZRP": {
+        "versions": {
+            "0.2.1": {
+                "name": "pear-shupp\/EZRP",
+                "description": "PHP interface for handling OAuth, OpenID, and Facebook connections consistently",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/EZRP-0.2.1.tgz"
+                },
+                "version": "0.2.1",
+                "time": "2012-04-01T20:17:18-07:00",
+                "require": {
+                    "php": ">=5.1.2",
+                    "pear-pear\/HTTP_OAuth": ">=0.2.3",
+                    "pear-pear\/OpenID": ">=0.3.3",
+                    "pear-pear\/Net_URL2": ">=0.2.0",
+                    "pear-pear\/Cache_Lite": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "shupp@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "EZRP",
+                        "8": "EZRP.php"
+                    }
+                }
+            },
+            "0.2.0": {
+                "name": "pear-shupp\/EZRP",
+                "description": "PHP interface for handling OAuth, OpenID, and Facebook connections consistently",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/EZRP-0.2.0.tgz"
+                },
+                "version": "0.2.0",
+                "time": "2012-02-05T19:58:24-08:00",
+                "require": {
+                    "php": ">=5.1.2",
+                    "pear-pear\/HTTP_OAuth": ">=0.2.3",
+                    "pear-pear\/OpenID": ">=0.3.2",
+                    "pear-pear\/Net_URL2": ">=0.2.0",
+                    "pear-pear\/Cache_Lite": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "shupp@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "EZRP",
+                        "8": "EZRP.php"
+                    }
+                }
+            }
+        },
+        "name": "pear-shupp\/EZRP",
+        "description": "PHP interface for handling OAuth, OpenID, and Facebook connections consistently",
+        "maintainers": [
+            {
+                "name": "Bill Shupp",
+                "email": "shupp@php.net",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-shupp\/Predict": {
+        "versions": {
+            "0.2.2": {
+                "name": "pear-shupp\/Predict",
+                "description": "A partial port of the Gpredict program for satellite tracking",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/Predict-0.2.2.tgz"
+                },
+                "version": "0.2.2",
+                "time": "2014-03-06T21:28:50-08:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-date": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "shupp@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "Predict",
+                        "17": "Predict.php"
+                    }
+                }
+            },
+            "0.2.1": {
+                "name": "pear-shupp\/Predict",
+                "description": "A partial port of the Gpredict program for satellite tracking",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/Predict-0.2.1.tgz"
+                },
+                "version": "0.2.1",
+                "time": "2012-07-04T19:52:46-07:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-date": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "shupp@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "Predict",
+                        "17": "Predict.php"
+                    }
+                }
+            },
+            "0.2.0": {
+                "name": "pear-shupp\/Predict",
+                "description": "A partial port of the Gpredict program for satellite tracking",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/Predict-0.2.0.tgz"
+                },
+                "version": "0.2.0",
+                "time": "2012-05-21T17:22:53-07:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-date": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "shupp@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "Predict",
+                        "17": "Predict.php"
+                    }
+                }
+            },
+            "0.1.2": {
+                "name": "pear-shupp\/Predict",
+                "description": "A partial port of the Gpredict program for satellite tracking",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/Predict-0.1.2.tgz"
+                },
+                "version": "0.1.2",
+                "time": "2011-09-25T15:02:36-07:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-date": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "shupp@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "Predict",
+                        "17": "Predict.php"
+                    }
+                }
+            },
+            "0.1.1": {
+                "name": "pear-shupp\/Predict",
+                "description": "A partial port of the Gpredict program for satellite tracking",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/Predict-0.1.1.tgz"
+                },
+                "version": "0.1.1",
+                "time": "2011-09-06T04:46:41-07:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-date": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "shupp@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "Predict",
+                        "17": "Predict.php"
+                    }
+                }
+            },
+            "0.1.0": {
+                "name": "pear-shupp\/Predict",
+                "description": "A partial port of the Gpredict program for satellite tracking",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/Predict-0.1.0.tgz"
+                },
+                "version": "0.1.0",
+                "time": "2011-08-22T16:25:45-07:00",
+                "require": {
+                    "php": ">=5.2.0",
+                    "ext-date": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "shupp@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "Predict",
+                        "17": "Predict.php"
+                    }
+                }
+            }
+        },
+        "name": "pear-shupp\/Predict",
+        "description": "A partial port of the Gpredict program for satellite tracking",
+        "maintainers": [
+            {
+                "name": "Bill Shupp",
+                "email": "shupp@php.net",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-shupp\/RandomString": {
+        "versions": {
+            "0.1.0": {
+                "name": "pear-shupp\/RandomString",
+                "description": "A RandomString generator",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/RandomString-0.1.0.tgz"
+                },
+                "version": "0.1.0",
+                "time": "2011-02-15T12:14:49-08:00",
+                "require": {
+                    "php": ">=5.1.2"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "shupp@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "RandomString.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-shupp\/RandomString",
+        "description": "A RandomString generator",
+        "maintainers": [
+            {
+                "name": "Bill Shupp",
+                "email": "shupp@php.net",
+                "homepage": ""
+            }
+        ]
+    },
+    "pear-shupp\/Services_IPPower": {
+        "versions": {
+            "0.0.1": {
+                "name": "pear-shupp\/Services_IPPower",
+                "description": "PHP Client for IP Power 9258 Remote Power Controller",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/shupp.github.com\/pirum\/get\/Services_IPPower-0.0.1.tgz"
+                },
+                "version": "0.0.1",
+                "time": "2012-04-30T03:19:17-07:00",
+                "require": {
+                    "php": ">=5.3.0",
+                    "pear-pear\/HTTP_Request2": ">=2.0.0"
+                },
+                "suggest": {
+                    "pear-pear\/Log": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Bill Shupp",
+                        "email": "shupp@php.net",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Services\/IPPower\/Exception.php",
+                        "Services\/IPPower.php"
+                    ]
+                }
+            }
+        },
+        "name": "pear-shupp\/Services_IPPower",
+        "description": "PHP Client for IP Power 9258 Remote Power Controller",
+        "maintainers": [
+            {
+                "name": "Bill Shupp",
+                "email": "shupp@php.net",
+                "homepage": ""
+            }
+        ]
+    }
+}

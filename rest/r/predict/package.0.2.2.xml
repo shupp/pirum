@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Predict</name>
+ <channel>shupp.github.com/pirum</channel>
+ <summary>A partial port of the Gpredict program for satellite tracking</summary>
+ <description>Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.</description>
+ <lead>
+  <name>Bill Shupp</name>
+  <user>shupp</user>
+  <email>shupp@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2014-03-06</date>
+ <time>21:28:50</time>
+ <version>
+  <release>0.2.2</release>
+  <api>0.2.2</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL v2.1</license>
+ <notes>
+* Addec Predict_TLE::createChecksum()
+* Updates to examples
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="2d540b8bc81ccba1ab07a89bbb5ebbfc" name="examples/benchmark.php" role="doc" />
+   <file baseinstalldir="/" md5sum="61fd3fb16098ee758b2acd468ee1f350" name="examples/findsun.php" role="doc" />
+   <file baseinstalldir="/" md5sum="6fcdd186def11ae3e4c1ce5dae037411" name="examples/google_maps_iss.png" role="doc" />
+   <file baseinstalldir="/" md5sum="ed96bb9c1130a487408499c90412b1b1" name="examples/iss.tle" role="doc" />
+   <file baseinstalldir="/" md5sum="595bf775dbb8a8f2c2da2f21be70a94b" name="examples/pass_polar_plot.png" role="doc" />
+   <file baseinstalldir="/" md5sum="792121b66dedd946eea38fb3bd7a2e3a" name="examples/solar_position.php" role="doc" />
+   <file baseinstalldir="/" md5sum="7e625c28782a99d1f0c9b8ff37d4c208" name="examples/update_iss_tle.php" role="doc" />
+   <file baseinstalldir="/" md5sum="58272c6ffd6414df42b09a85b30b1c2d" name="examples/visible_passes.php" role="doc" />
+   <file baseinstalldir="/" md5sum="a788823bbc5143cd3c7a04189e80e856" name="Predict/DeepArg.php" role="php" />
+   <file baseinstalldir="/" md5sum="dc2f7745830617dba251d1a4ba91caa7" name="Predict/DeepStatic.php" role="php" />
+   <file baseinstalldir="/" md5sum="ef3ac272e4f3ea52ca1f87eb3f9178a3" name="Predict/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="14c1c8883de40b9d0a4b957d18f532da" name="Predict/Geodetic.php" role="php" />
+   <file baseinstalldir="/" md5sum="d6aea0ffbdfba00d0baf6d0e09785079" name="Predict/Math.php" role="php" />
+   <file baseinstalldir="/" md5sum="7956e82d7a41cc5f954c9f5be8b7e3cb" name="Predict/ObsSet.php" role="php" />
+   <file baseinstalldir="/" md5sum="d9a7a023075a4fd76b62344e373cbedf" name="Predict/Pass.php" role="php" />
+   <file baseinstalldir="/" md5sum="6f52aeca490714e7666d019206542ce9" name="Predict/PassDetail.php" role="php" />
+   <file baseinstalldir="/" md5sum="b9154a6e032da7308a5ab247afd6013f" name="Predict/QTH.php" role="php" />
+   <file baseinstalldir="/" md5sum="fbb4acbc4d8b0dbfcf2a850b1db199ab" name="Predict/Sat.php" role="php" />
+   <file baseinstalldir="/" md5sum="4c62618628b5a093ed8351bc9bcab5c7" name="Predict/SGPObs.php" role="php" />
+   <file baseinstalldir="/" md5sum="a6a172d6fdef6745b2d28340af5b4c1f" name="Predict/SGPSDP.php" role="php" />
+   <file baseinstalldir="/" md5sum="a65974bb4802b64066a9300b9af217b4" name="Predict/SGSDPStatic.php" role="php" />
+   <file baseinstalldir="/" md5sum="17bf7427f66e1e700b8e247a2e090052" name="Predict/Solar.php" role="php" />
+   <file baseinstalldir="/" md5sum="fb32aafe61c9e5f6e726b27793d0ea21" name="Predict/Time.php" role="php" />
+   <file baseinstalldir="/" md5sum="f1231f17cfcdff3853c2ca2fba721fbe" name="Predict/TLE.php" role="php" />
+   <file baseinstalldir="/" md5sum="14e343a94f27249543fcc0d5cc8217ee" name="Predict/Vector.php" role="php" />
+   <file baseinstalldir="/" md5sum="3f3cae685b4f8a8f2daea629c0098a31" name="tests/Table.php" role="test" />
+   <file baseinstalldir="/" md5sum="8b29e5b1402beb977057ca07a4b5019c" name="tests/test-001.php" role="test" />
+   <file baseinstalldir="/" md5sum="0e3b5ae0ab2905c86039c7d3784df2e4" name="tests/test-001.tle" role="test" />
+   <file baseinstalldir="/" md5sum="fb3f63a62c13c8d6f164eb24da4bb715" name="tests/test-002.php" role="test" />
+   <file baseinstalldir="/" md5sum="a88421f6a0ff5a36fa5b59380d5f1d86" name="tests/test-002.tle" role="test" />
+   <file baseinstalldir="/" md5sum="dd4554677d1bcd8e2a4c692138401898" name="Predict.php" role="php" />
+   <file baseinstalldir="/" md5sum="c3ac6cd92bb3a42853e93552d4533041" name="README.md" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+   <extension>
+    <name>date</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-08-22</date>
+   <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL v2.1</license>
+   <notes>
+* Initial release
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-05</date>
+   <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL v2.1</license>
+   <notes>
+* Fixed minimum elevation bug in visible pass detection
+* Updated precision of Pogson&apos;s Ratio, refactored calculate magnitude to be more readble, as well as added comments
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2011-09-25</date>
+   <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL v2.1</license>
+   <notes>
+* Added Predict_Time::getEpochTimeStamp()
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-05-21</date>
+   <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL v2.1</license>
+   <notes>
+* Fixed bug in Predict_Time::unix2daynum()
+* Updated example iss.tle file
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.1</release>
+    <api>0.2.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2012-07-04</date>
+   <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL v2.1</license>
+   <notes>
+* Corrected role of README.md
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.2</release>
+    <api>0.2.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2014-03-06</date>
+   <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL v2.1</license>
+   <notes>
+* Addec Predict_TLE::createChecksum()
+* Updates to examples
+   </notes>
+  </release>
+ </changelog>
+</package>

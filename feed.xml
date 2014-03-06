@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://shupp.github.com/pirum</id>
-    <updated>2012-07-04T12:53:14-07:00</updated>
+    <updated>2014-03-06T13:29:37-08:00</updated>
     <title>Bill Shupp's PEAR channel Latest Releases</title>
     <link href="http://shupp.github.com/pirum/feed.xml" rel="self" />
     <author>
@@ -17,6 +17,7 @@
         </author>
         <updated>2011-01-28T17:07:49-08:00</updated>
         <content>
+            Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors
             
 * Added support for creating a record with the primary key value supplied
 * After creation, all values are updated in the current object
@@ -32,6 +33,7 @@
         </author>
         <updated>2010-12-24T20:53:25-08:00</updated>
         <content>
+            Deneb provides a consistent CRUD interface to using Zend_Db base models and model collections, as well as segregated read and write DB pools and selectors
             
 * Added countAll() method for collections
 * Added delayed fetch (no automatic trip to DB) for collections
@@ -46,6 +48,7 @@
         </author>
         <updated>2012-04-01T20:17:18-07:00</updated>
         <content>
+            See ezrp.me for details
             
 * Added EZRP::getProfileData(), only the twitter driver is supported though
 * Updated twitter oauth url
@@ -61,10 +64,26 @@
         </author>
         <updated>2012-02-05T19:58:24-08:00</updated>
         <content>
+            See ezrp.me for details
             
 * Added EZRP::getProfileData(), only the twitter driver is supported though
 * Updated twitter oauth url
 * Prepped 0.2.0 release
+ 
+        </content>
+    </entry>    <entry>
+        <title>Predict 0.2.2 (alpha)</title>
+        <link href="http://shupp.github.com/pirum/get/Predict-0.2.2.tgz" />
+        <id>http://shupp.github.com/pirum/get/Predict-0.2.2.tgz</id>
+        <author>
+            <name>shupp</name>
+        </author>
+        <updated>2014-03-06T21:28:50-08:00</updated>
+        <content>
+            Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.
+            
+* Addec Predict_TLE::createChecksum()
+* Updates to examples
  
         </content>
     </entry>    <entry>
@@ -76,6 +95,7 @@
         </author>
         <updated>2012-07-04T19:52:46-07:00</updated>
         <content>
+            Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.
             
 * Corrected role of README.md
  
@@ -89,6 +109,7 @@
         </author>
         <updated>2012-05-21T17:22:53-07:00</updated>
         <content>
+            Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.
             
 * Fixed bug in Predict_Time::unix2daynum()
 * Updated example iss.tle file
@@ -103,6 +124,7 @@
         </author>
         <updated>2011-09-25T15:02:36-07:00</updated>
         <content>
+            Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.
             
 * Added Predict_Time::getEpochTimeStamp()
  
@@ -116,6 +138,7 @@
         </author>
         <updated>2011-09-06T04:46:41-07:00</updated>
         <content>
+            Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.
             
 * Fixed minimum elevation bug in visible pass detection
 * Updated precision of Pogson's Ratio, refactored calculate magnitude to be more readble, as well as added comments
@@ -130,6 +153,7 @@
         </author>
         <updated>2011-08-22T16:25:45-07:00</updated>
         <content>
+            Predict is a partial PHP port of the Gpredict (http://gpredict.oz9aec.net/) program that allows real-time tracking and orbit prediction of satellites from two line element sets.  It supports the SGP4 and SDP4 models for prediction.
             
 * Initial release
  
@@ -143,6 +167,7 @@
         </author>
         <updated>2011-02-15T12:14:49-08:00</updated>
         <content>
+            Easy creation of random strings, limiting by lower case, upper case, numeric, and puncuation characters
             
 * Initial release
  
@@ -156,6 +181,7 @@
         </author>
         <updated>2012-04-30T03:19:17-07:00</updated>
         <content>
+            Only supports SetPower command right now
             
 * Initial release
  
